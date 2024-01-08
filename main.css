@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+#wrapper {
+  overflow: hidden;
+  background: #e5e5e5;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* --------------------------------------------
+    TYPOGRAPHY
+-------------------------------------------- */
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h5 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+h6 {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+  font-weight: normal;
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  font-style: normal;
+  line-height: normal;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul > li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+}
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  h4 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  h5 {
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+  }
+  h6 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: normal;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 14px !important;
+    font-style: normal;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+  }
+
+  span {
+    font-style: normal;
+    line-height: normal;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  ul > li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 768px) {
+  /* --------------------------------------------
+    TYPOGRAPHY
+-------------------------------------------- */
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+h5 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+h6 {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+  font-weight: normal;
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  font-style: normal;
+  line-height: normal;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul > li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+}
+a {
+  text-decoration: none;
+}
+}

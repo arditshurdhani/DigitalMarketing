@@ -1,0 +1,10 @@
+:root {
+  --color-yellow: #fed74b;
+}
+
+.background {
+  background: var(
+    --Gradients-Digital-Main,
+    linear-gradient(93deg, #7a0285 -69.89%, #310058 100%)
+  );
+}
